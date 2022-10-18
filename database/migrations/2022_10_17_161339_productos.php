@@ -18,6 +18,7 @@ class Productos extends Migration
             $table->string('nombre');
             $table->string('descripcion');
             $table->string('precio');
+            $table->integer('stock');
             $table->timestamps();
         });
     }
